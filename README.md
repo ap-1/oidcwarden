@@ -27,7 +27,7 @@ PGUSER="${{Postgres.PGUSER}}"
 PORT="8000"
 ```
 
-1. `ADMIN_TOKEN`, should be set to a secure string, which you can generate with a command like the following:
+1. `ADMIN_TOKEN` should be set to a secure string, which you can generate with a command like the following:
 
 ```bash
 openssl rand -base64 24
